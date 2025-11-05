@@ -8,6 +8,8 @@
 集上分析了算法的性能核超参数的影响，绘制了决策边界，在HIGGS数据集上测试了算法的准确率。此外，我们还利用sklearn机器学习库自动实现了一个RBF核SVM，测试了
 大样本下基于核方法的SVM的分类能力。
 
+项目报告在~/project1/report.
+
 ### 快速开始
 
 Step1: 下载project1文件夹并进入
@@ -24,7 +26,7 @@ Step3: 运行生成数据集代码
 ```
 bash run_generate.sh
 ```
-注意：HIGGS数据集在这里
+注意：HIGGS数据集在 https://pan.quark.cn/s/ed1b7a009fa3.
 
 Step4: 依次运行bash文件。结果将打印在终端或保存在results文件夹中。
 
