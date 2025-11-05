@@ -26,7 +26,7 @@ Step3: 运行生成数据集代码
 ```
 bash run_generate.sh
 ```
-注意：HIGGS数据集在 https://pan.quark.cn/s/ed1b7a009fa3.
+注意：HIGGS数据集在 https://pan.quark.cn/s/ed1b7a009fa3. 请在~/project1/datasets文件夹下创建HIGGS文件夹，并将下载的HIGGS.csv文件放入其中。
 
 Step4: 依次运行bash文件。结果将打印在终端或保存在results文件夹中。我们建议在运行run_SVM-HIGGS.sh时注释掉不需要的代码，只保留需要运行的部分。因为SVM模型在HIGGS数据集上训练耗时较长，依次运行便于监控训练过程和及时调试。
 
